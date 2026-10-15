@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+client/build/
+
+# Environment variables (NEVER commit secrets)
+server/.env
+.env
+.env.local
+.env.*.local
+
+# Vite cache
+client/.vite/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# GSD / agent folders (dev tooling — not app code)
+.gsd/
+.agents/
+.agent/
+.gemini/
